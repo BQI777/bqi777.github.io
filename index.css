@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url(https://fonts.googleapis.com/css?family=Rubik);
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -38,7 +39,7 @@ header {
     position:fixed;
     font-weight:bold;
     background:transparent;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     transition:0.4s ease-in-out;
     z-index:2;
 }
@@ -164,7 +165,7 @@ header table {
 #rightImage {
     width:100%;
     height:95vh;
-    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
+    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("/2/images/proyecto1/pepesad.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -179,12 +180,14 @@ header table {
     width:6%;
 }
 #photos {
-    width:100%;
     columns:3;
-    column-gap:4%;
+    column-gap:16px;
     z-index:1;
+    margin-left:30px;
+    margin-right:30px;
     transition:0.4s ease-in-out;
 }
+
 #photos img {
     width:100%;
     height:auto;
@@ -192,7 +195,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #photos img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     cursor: pointer;
 }
 #bio {
@@ -303,6 +306,59 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
+/* MIS IDS Y WEAS /////////////////////////////////////////////// */
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#photos2 {
+    columns:2;
+    column-gap:16px;
+    z-index:1;
+    margin-left:30px;
+    margin-right:30px;
+    transition:0.4s ease-in-out;
+}
+
+#photos2 img {
+    width:100%;
+    height:auto;
+    margin:4.5% 0px;
+    transition:0.4s ease-in-out;
+}
+#photos2 img:hover {
+    /* transform: scale(1.1); */
+    cursor: pointer;
+}
+
+#photoscentro {
+    columns: 1;
+    z-index:1;
+    width: auto;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    transition:0.4s ease-in-out;
+}
+
+#photoscentro img {
+    columns:1;
+    width:100%;
+    height:auto;
+    margin:4.5% 0px;
+    transition:0.4s ease-in-out;
+}
+#photoscentro img:hover {
+    /* transform: scale(1.1); */
+    cursor: pointer;
+}
+
+/* MIS IDS Y WEAS /////////////////////////////////////////////// */
+
 @media (max-width: 1000px){
     #photos {
     columns:1;
@@ -315,6 +371,28 @@ button:focus {
         transform: scale(1);
         cursor: pointer;
     }
+    #photos2 {
+        columns:1;
+        column-gap:0%;
+        }
+    #photos2 img {
+            margin:2% 0px;
+        }
+    #photos2 img:hover {
+            transform: scale(1);
+            cursor: pointer;
+    }
+    #photoscentro {
+        columns:1;
+        column-gap:0%;
+        }
+    #photoscentro img {
+            margin:2% 0px;
+        }
+    #photoscentro img:hover {
+            transform: scale(1);
+            cursor: pointer;
+     }
     #rightImage {
         display:none;
     }
