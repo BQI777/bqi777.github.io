@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    padding:0px;
+    margin:0px;
+    max-width:100vw;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+/* MIS IDS Y WEAS /////////////////////////////////////////////// */
+nav{
+    background: none;
+    height: 40px;
+    width: 100%;
+    }
+
+label.logo{
+    float:left;
+    margin-left: 3%;
+    color: #32343a;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align:left;
+    margin-top: 1%;
+}
+
+nav ul{
+    float:right;
+    margin-right:3%;
+    }
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    }    
+
+nav ul li a{
+    color:#32343a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: left; 
+    }
+
+a.active,a:hover {
+    font-weight: 700;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight:600;
+}
+
+.link1:hover {
+    background-color:#1291e6;
+    background-image: none;
+}
+
+.link2 {
+    text-decoration: none;
+    font-weight:600;
+}
+
+.link2:hover {
+    background-color:#e66712;
+    background-image: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+ 
+.heading1{
+    color: #1a1b1d;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.heading2{
+    color: #1a1b1d;
+    line-height: 52px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 36px;
+}
+
+.heading3{
+    color: #1a1b1d;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 24px;
+}
+
+
+.importante{
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 600;
+    text-align: center;
+    color: #1a1b1d;
+}
+
+.body{
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #1a1b1d;
+    margin-left: 5%;
+  }
+
+#bodycontainer{
+    display: block;
+    margin-right: 1%;
+    
+}
+
+
+.typofont {
+    font-weight: normal;
+}
+
+/* MIS IDS Y WEAS /////////////////////////////////////////////// */
+
+@media (max-width: 1000px){
+    
+    .imgintro{
+         margin-left: auto;
+         margin-right: auto;
+         width: 100%;
+    }
+}
