@@ -91,23 +91,22 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 8px;
 }
 
-/* Estilo para el botón primario */
+
 .btn-primary:active {
-    background-color: #000000 !important; /* Color más oscuro que el original */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Sombra al hacer clic */
+    background-color: #000000 !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; 
 }
 
-/* Estilo para el botón secundario */
+
 .btn-secondary:active {
-    background-color: #ececec !important; /* Gris oscuro, en lugar de negro */
-    color: #000f !important; /* Mantener el texto oscuro */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; /* Sombra al hacer clic */
+    background-color: #ececec !important; 
+    color: #000f !important; /
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; 
     background-image: none !important;
 }
 
-/* Asegúrate de que el estado 'active' no sea sobrescrito por bootstrap */
 .btn-primary, .btn-secondary {
-    transition: background-color 0.2s, box-shadow 0.2s; /* Transición suave */
+    transition: background-color 0.2s, box-shadow 0.2s; 
 }
 
   
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .breadcrumb-item a:hover {
-    color: #0056b3; /* Cambiar el color al pasar el mouse */
+    color: #0056b3; 
 }
 
 .breadcrumb-item.active {
@@ -153,18 +152,18 @@ li.nav-item.active {
     text-decoration: none;
 }
 
-/* Cambiar color de fondo y texto cuando se hace hover sobre el <li> */
+
 .nav-item:hover .linkedIn {
     color: #f8f8f8;
     background-color: #0B65C3;
   }
   
-  /* Cambiar color del icono cuando se hace hover sobre el <li> */
+
   .nav-item:hover .bi-linkedin {
     color: #F8F8F8;
   }
   
-  /* Estilo normal del icono */
+
   .bi-linkedin {
     color: #0B65C3;
   }
