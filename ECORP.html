@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTAFOLIO BQI UX UI 2024</title>
+</head>
+<body>
+
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg px-3 px-lg-5">
+
+    <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarsExample08" 
+        aria-controls="navbarsExample08" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-md-center pb-5 mb-5 mt-5" id="navbarsExample08">
+
+        <!-- MENÚ CENTRADO -->
+        <ul class="navbar-nav gap-4">
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#Proyectos" data-i18n="nav.projects"></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link linkedIn" href="https://www.linkedin.com/in/bqi777/" target="_blank">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+            </li>
+
+        </ul>
+
+<!-- SELECTOR DE IDIOMA -->
+        <div class="dropdown language-selector">
+            <button 
+                class="btn dropdown-toggle"
+                type="button"
+                id="languageButton"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="fi fi-es"></span> ES
+            </button>
+            <ul class="dropdown-menu">
+                <li>
+                    <button 
+                        class="dropdown-item"
+                        type="button"
+                        onclick="changeLanguage('es')">
+                        <span class="fi fi-es"></span> Español
+                    </button>
+                </li>
+                <li>
+                    <button 
+                        class="dropdown-item"
+                        type="button"
+                        onclick="changeLanguage('en')">
+                        <span class="fi fi-gb"></span> English
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+<button
+type="button"
+class="btn btn-primary btn-floating btn-lg"
+id="btn-back-to-top"
+  >
+<i class="fa fa-angle-up"></i>
+</button>
+<!-- CONTENT -->
+
+<div class="container d-flex flex-row justify-content-center ">
+  <div class="col-md"></div>
+  <div class="col-md-6 py-1 px-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">ECORP</li>
+      </ol>
+    </nav>
+
+  <h1 class="py-3">ECORP</h1>
+<div class="containerImg" role="button">
+    <img 
+        href="#popup-ecorp"
+        src="assets/ecorp intro.png"
+        data-i18n-src="ecorp.introImage"
+        class="img-fluid enlarge open-popup"
+        alt="..."
+    >
+</div>
+<div id="popup-ecorp" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+    <img 
+        src="assets/ecorp intro.png"
+        data-i18n-src="ecorp.introImage"
+        alt=""
+        class="mpopup"
+    >
+</div>
+    <p data-i18n="ecorp.description"></p>
+  </div>
+  <div class="col-md"></div>
+</div>
+
+<div class="container d-flex flex-row justify-content-center ">
+  <div class="col-md"></div>
+  <div class="col-md-6 px-5 mt-5">
+    <h2 class="py-3" data-i18n="ecorp.processTitle"></h2>
+    <p data-i18n="ecorp.process"></p>
+  </div>  
+  <div class="col-md"></div>
+</div>
+
+<div class="container d-flex flex-row justify-content-center ">
+  <div class="col-md"></div>
+  <div class="col-md-6 px-5 mt-5">
+    <h3 class="py-3" data-i18n="ecorp.informationTitle"></h3>
+    <p data-i18n="ecorp.information"></p>
+    <div class="containerImg" role="button">
+    <img 
+        href="#popup-ecorpf"
+        src="assets/ecorpfuentes.jpg"
+        data-i18n-src="ecorp.sourcesImage"
+        class="img-fluid enlarge open-popup"
+        alt="..."
+    >
+</div>
+<div id="popup-ecorpf" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+    <img 
+        src="assets/ecorpfuentes.jpg"
+        data-i18n-src="ecorp.sourcesImage"
+        alt=""
+        class="mpopup"
+    >
+</div>
+  </div>  
+  <div class="col-md"></div>
+</div>
+
+<div class="container d-flex flex-row justify-content-center ">
+  <div class="col-md"></div>
+  <div class="col-md-6 px-5 mt-5">
+    <h3 class="py-3" data-i18n="ecorp.benchmarkingTitle"></h3>
+    <p data-i18n="ecorp.benchmarking"></p>
+    <div class="containerImg" role="button">
+    <img 
+        href="#popup-bmecorp1"
+        src="assets/ecorpbenchmarking.jpg"
+        data-i18n-src="ecorp.benchmarkingImage"
+        class="img-fluid enlarge open-popup"
+        alt="..."
+    >
+</div>
+<div id="popup-bmecorp1" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+    <img 
+        src="assets/ecorpbenchmarking.jpg"
+        data-i18n-src="ecorp.benchmarkingImage"
+        alt=""
+    >
+</div>
+<div class="containerImg" role="button">
+    <img 
+        href="#popup-bmecorp2"
+        src="assets/ecorpbenchmarking2.jpg"
+        data-i18n-src="ecorp.benchmarkingImage2"
+        class="img-fluid enlarge open-popup"
+        alt="..."
+    >
+</div>
+<div id="popup-bmecorp2" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+    <img 
+        src="assets/ecorpbenchmarking2.jpg"
+        data-i18n-src="ecorp.benchmarkingImage2"
+        alt=""
+    >
+</div>
+  </div>  
+  <div class="col-md"></div>
+</div>
+
+<div class="container d-flex flex-row justify-content-center">
+    <div class="col-md"></div>
+
+    <div class="col-md-6 px-5 mt-5">
+
+        <h3 class="py-3" data-i18n="ecorp.userPersonaTitle"></h3>
+
+        <p data-i18n="ecorp.userPersona"></p>
+
+
+        <!-- USER PERSONA 2 -->
+        <div class="containerImg" role="button">
+            <img 
+                href="#popup-ecorpuserpersona2"
+                src="assets/ecorpuserpersona2.jpg"
+                data-i18n-src="ecorp.userPersonaImage2"
+                class="img-fluid enlarge open-popup"
+                alt="..."
+            >
+        </div>
+        <div id="popup-ecorpuserpersona2" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+            <img 
+                src="assets/ecorpuserpersona2.jpg"
+                data-i18n-src="ecorp.userPersonaImage2"
+                alt=""
+            >
+        </div>
+
+
+        <!-- USER PERSONA 3 -->
+        <div class="containerImg" role="button">
+            <img 
+                href="#popup-ecorpuserpersona3"
+                src="assets/ecorpuserpersona3.jpg"
+                data-i18n-src="ecorp.userPersonaImage3"
+                class="img-fluid enlarge open-popup"
+                alt="..."
+            >
+        </div>
+        <div id="popup-ecorpuserpersona3" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+            <img 
+                src="assets/ecorpuserpersona3.jpg"
+                data-i18n-src="ecorp.userPersonaImage3"
+                alt=""
+            >
+        </div>
+
+
+        <!-- USER PERSONA 4 -->
+        <div class="containerImg" role="button">
+            <img 
+                href="#popup-ecorpuserpersona4"
+                src="assets/ecorpuserpersona4.jpg"
+                data-i18n-src="ecorp.userPersonaImage4"
+                class="img-fluid enlarge open-popup"
+                alt="..."
+            >
+        </div>
+        <div id="popup-ecorpuserpersona4" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+            <img 
+                src="assets/ecorpuserpersona4.jpg"
+                data-i18n-src="ecorp.userPersonaImage4"
+                alt=""
+            >
+        </div>
+    </div>
+    <div class="col-md"></div>
+</div>
+
+<div class="container d-flex flex-row justify-content-center">
+    <div class="col-md"></div>
+
+    <div class="col-md-6 px-5 mt-5">
+
+        <h3 class="py-3" data-i18n="ecorp.proposalTitle"></h3>
+        <div class="containerImg">
+            <img 
+                src="assets/ecorpbanner.png"
+                data-i18n-src="ecorp.bannerImage"
+                class="img-fluid enlarge"
+                alt="..."
+            >
+        </div>
+        <p data-i18n="ecorp.proposal"></p>
+        <div class="containerImg" role="button">
+            <img 
+                href="#popup-ecorp2"
+                src="assets/ecorp2.jpg"
+                data-i18n-src="ecorp.proposalImage"
+                class="img-fluid enlarge open-popup"
+                alt="..."
+            >
+        </div>
+        <div id="popup-ecorp2" class="mfp-hide d-flex flex-row justify-content-center align-items-center" role="button">
+            <img 
+                src="assets/ecorp2.jpg"
+                data-i18n-src="ecorp.proposalImage"
+                alt=""
+                class="mpopup"
+            >
+        </div>
+    </div>
+    <div class="col-md"></div>
+</div>
+
+
+<!-- FOOTER-->
+
+<div class="container mt-5 pt-5">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <p class="col-md-4 mb-0 text-body-secondary">BQI@UXUI</p>
+        <p class="smalltxt" data-i18n="footer.message"></p>
+</div>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            $('.open-popup').magnificPopup({
+                type: 'inline',
+                fixedContentPos: true,
+                closeBtnInside: false,
+                showCloseBtn: false,
+                closeOnBgClick: true,
+                closeOnContentClick: true,
+                preloader: false,
+                removalDelay: 160,
+                mainClass: 'mfp-fade'
+            });
+        });
+    </script>
+</body>
+</html>
