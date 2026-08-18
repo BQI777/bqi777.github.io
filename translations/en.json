@@ -1,0 +1,90 @@
+{
+    "nav": {
+        "home": "Home",
+        "projects": "Projects"
+    },
+    "hero": {
+        "title": "Hey, I'm Nicolás",
+        "description": "<span class=\"wave-animation\">👋</span> I'm an UX/UI designer focused on creating user-centered digital experiences, ensuring they are intuitive, easy to use, and accessible to everyone.<br><br>I'm passionate about improving usability and ensuring that products are inclusive, allowing for a seamless interaction for all types of users."
+    },
+    "buttons": {
+        "copyEmail": "Copy my email",
+        "linkedin": "My LinkedIn",
+        "viewProject": "View project"
+    },
+    "alerts": {
+        "emailCopied": "📮 Email copied 📮"
+    },
+    "projects": {
+        "vimu": {
+            "description": "Museum outreach<br><br>ViMu emerged as a response to the gap between museums and potential visitors, identifying a lack of timely information, confusion, and fragmented information."
+        },
+        "ecorp": {
+            "description": "Robotic avatars for the fire department<br><br>ECORP is a project that combines virtual reality and robotic avatars in the context of the fire department."
+        }
+    },
+    "footer": {
+        "message": "Gratitude can change the present"
+    },
+
+"vimu": {
+    "title": "VIMU",
+    "introImage": "assets/vimu intro EN.png",
+    "description": "ViMu emerged as a response to the gap between museums and potential visitors, identifying a lack of timely information, as well as confusion and scattered information.<br><br>The goal of this project was to create a platform that brought together all museums and event information in one place, presenting it clearly and making it easily accessible to users.",
+    "processTitle": "PROCESS",
+    "process": "ViMu is based on the Double Diamond and Lean UX models, going through multiple phases of divergence and convergence.",
+    "doubleDiamond": "assets/doble diamante EN.png",
+    "informationTitle": "GATHERING INFORMATION",
+    "information": "This stage focuses on divergence and information gathering.<br><br>The first phase includes desk research to identify or confirm problems. In this case, a decrease of approximately 90% in museum visits was identified following the pandemic.<br><br>The second phase consists of interviews with users and stakeholders to understand their pain points, experiences, and expectations.",
+    "interviewImage": "assets/entrevista EN.png",
+    "insightsTitle": "INSIGHTS",
+    "insights": "The insights were obtained through information saturation from desk research, interviews, and surveys. Key ideas, words, and recurring themes were analyzed and grouped, looking for connections between them. This made it possible to identify quotes, new problems, ways users relate to culture, what they value, essential aspects of the experience, their main motivation for visiting museums, and what makes the difference between interest and attendance.",
+    "museumInsights": "Museums are considered an educational and entertaining way to learn.<br><br>A museum is considered interactive when it encourages users to participate in the experience of exploring the museum. Examples include pressing buttons, listening to sounds, movement, screens, etc.<br><br>Some users perceive little variety in the content offered by museums and therefore do not consider it necessary to visit again.",
+    "museumEngagement": "The number of visits and engagement on posts did not translate into actual museum visits, suggesting that the information was not reaching enough people or was not sufficiently motivating to encourage people to visit the museum.",
+    "userPersonaTitle": "USER PERSONA",
+    "userPersona": "The user persona was based on the interviewees' main motivation for visiting museums: \"curiosity\" and the search for new knowledge.<br><br>This also considered the expectations, motivations, and secondary pain points associated with this type of user.",
+    "userPersonaImage": "assets/userpersona EN.png",
+    "userJourneyTitle": "USER JOURNEY",
+    "userJourney": "Since most users learn about museum events through social media, the user journey begins with this discovery.<br><br>The user journey consists of discovering an event that has already taken place and searching for an alternative event that satisfies the curiosity sparked by the first one, finding a suitable time, scheduling, purchasing tickets, arriving at the event, and the post-event experience.",
+    "userJourneyImage": "assets/userjourney EN.png",
+    "designProcessTitle": "PROCESS",
+    "designProcess": "The process consisted of brainstorming ideas for this new application, researching references, and defining the application's architecture by combining it with user flows and card sorting; followed by wireframe sketches and low- and high-fidelity prototypes.",
+    "ideaTitle": "BRAINSTORMING",
+    "brainstormingImage": "assets/lluvia de ideas EN.png",
+    "moodboardTitle": "MOODBOARD",
+    "moodboardImage": "assets/moodboard.png",
+    "flowTitle": "FLOW",
+    "flowImage": "assets/flujo EN.png",
+    "wireframeTitle": "SKETCHING WIREFRAME",
+    "wireframe": "This technique allows the application's structure to be visualized quickly and easily. Through sketches, the arrangement of key elements is defined, facilitating the communication of ideas and decision-making during the early stages of development.",
+    "wireframeImage": "assets/wireframe.png",
+    "highFidelityTitle": "HIGH FIDELITY",
+    "highFidelity": "This stage focused on organizing the information hierarchy and establishing a main focus for the application: discovering new events. Therefore, the home screen focused on presenting events similar to those the user had previously attended, while placing search in the background.<br><br>Since plans are not always made in advance and we may not know whether we will feel like going somewhere tomorrow, a nearby events section was added for users who do not have plans yet. Free events, workshops, and activities were also added as additional sections.<br><br>A regular monospaced typeface was used based on the concepts of unity, culture, and formality.<br>A color palette associated with these concepts was used, incorporating knowledge and discovery. This palette was applied using the 30-60-90 rule."
+},
+
+
+"ecorp": {
+    "title": "ECORP",
+    "subtitle": "Robotic avatars for the fire department",
+    "description": "ECORP is a project that combines virtual reality and robotic avatars in the context of the fire department.<br><br>The goal of this project was to create a product that could enable the training of new members while allowing members who no longer have their full capabilities to remain useful to their team.",
+    "introImage": "assets/ecorp intro.png",
+    "processTitle": "PROCESS",
+    "process": "ECORP aims to project a technology into the future and explore a possible use for it. In this case, I chose virtual reality with robotic avatars in a fire department context due to the wide age range and diversity among the members who make up the fire department.<br><br>The first step was researching virtual reality technologies, including their development and current applications, in order to move on to benchmarking.",
+    "informationTitle": "GATHERING INFORMATION",
+    "information": "This stage focuses on divergence and information gathering.<br><br>The first phase includes desk research to identify potential interviews, studies, and publications that could enable the use of virtual reality technology in work environments.",
+    "sourcesImage": "assets/ecorpfuentes EN.png",
+    "benchmarkingTitle": "BENCHMARKING",
+    "benchmarking": "It consists of analyzing and comparing industry or competitor standards. In a design project, it helps identify areas for improvement and competitiveness.",
+    "benchmarkingImage": "assets/ecorpbenchmarking EN.png",
+    "benchmarkingImage2": "assets/ecorpbenchmarking2 EN.png",
+    "userPersonaTitle": "USER PERSONA",
+    "userPersona": "The user persona was based on possible firefighter stereotypes, ranging from experienced firefighters within the department to new recruits.",
+    "userPersonaImage2": "assets/ecorpuserpersona2 EN.png",
+    "userPersonaImage3": "assets/ecorpuserpersona3 EN.png",
+    "userPersonaImage4": "assets/ecorpuserpersona4 EN.jpg",
+    "proposalTitle": "PROPOSAL",
+    "proposal": "Based on the references and user personas, a robotic avatar is proposed that can be operated through virtual reality technology. This would allow experienced firefighters who cannot expose themselves to certain dangers to share their field experience with less experienced volunteers.",
+    "bannerImage": "assets/ecorpbanner.png",
+    "proposalImage": "assets/ecorp2 EN.png"
+}
+}
