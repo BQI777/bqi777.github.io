@@ -6,7 +6,7 @@
     "hero": {
         "title": "Hey, I'm Nicolás",
         "description": "<span class=\"wave-animation\">👋</span> I'm an UX/UI designer focused on creating user-centered digital experiences, ensuring they are intuitive, easy to use, and accessible to everyone.<br><br>I'm passionate about improving usability and ensuring that products are inclusive, allowing for a seamless interaction for all types of users.",
-        "projects": "projects"
+        "projects": "Projects"
     },
     "buttons": {
         "copyEmail": "Copy my email",
