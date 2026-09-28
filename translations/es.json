@@ -5,7 +5,7 @@
     },
     "hero":{
         "title": "Hola, soy Nicolás",
-        "description": "<span class=\"wave-animation\">👋</span> Soy diseñador UX/UI con enfoque en crear experiencias digitales centradas en el usuario, asegurando que sean intuitivas, fáciles de usar y accesibles para todos.<br><br>Me apasiona mejorar la usabilidad y garantizar que los productos sean inclusivos, permitiendo una interacción fluida para todo tipo de usuarios."
+        "description": "<span class=\"wave-animation\">👋</span> Soy diseñador UX/UI con enfoque en crear experiencias digitales centradas en el usuario, asegurando que sean intuitivas, fáciles de usar y accesibles para todos.<br><br>Me apasiona mejorar la usabilidad y garantizar que los productos sean inclusivos, permitiendo una interacción fluida para todo tipo de usuarios.",
         "projects": "proyectos"
     },
     "buttons": {
