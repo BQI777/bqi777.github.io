@@ -213,6 +213,6 @@ function changeLanguage(language) {
 // CARGAR IDIOMA GUARDADO
 // ==============================
 
-const savedLanguage = localStorage.getItem("language") || "en";
+const savedLanguage = localStorage.getItem("language") || "es";
 
 loadLanguage(savedLanguage);
