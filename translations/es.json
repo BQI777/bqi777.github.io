@@ -5,8 +5,7 @@
     },
     "hero":{
         "title": "Hola, soy Nicolás",
-        "description": "<span class=\"wave-animation\">👋</span> Soy diseñador UX/UI con enfoque en crear experiencias digitales centradas en el usuario, asegurando que sean intuitivas, fáciles de usar y accesibles para todos.<br><br>Me apasiona mejorar la usabilidad y garantizar que los productos sean inclusivos, permitiendo una interacción fluida para todo tipo de usuarios.",
-        "projects": "Proyectos"
+        "description": "<span class=\"wave-animation\">👋</span> Soy diseñador Industrial y UX/UI chileno <span class=\"fi fi-cl flag-small\"></span> viviendo en Hamburgo, Alemania <span class=\"fi fi-de flag-small\"></span> , con 3 años de experiencia trabajando en proyectos digitales para el Gobierno de Chile y organizaciones privadas.<br><br>He trabajado en el diseño de sitios web, plataformas B2B, sistemas de administración, productos para gestionar grandes volúmenes de información y plataformas orientadas a procesos. Mi enfoque combina usabilidad, diseño de interacción y arquitectura de información para crear experiencias digitales claras, intuitivas y eficientes.<br><br>Me interesa especialmente diseñar productos accesibles e inclusivos, siguiendo las pautas de accesibilidad WCAG 2.2 y buscando que las interfaces cumplan con el nivel AA."
     },
     "buttons": {
         "copyEmail": "Copia mi mail",
@@ -22,6 +21,9 @@
         },
         "ecorp": {
             "description": "Avatares robóticos para el cuerpo de bomberos<br><br>ECORP es un proyecto que mezcla la realidad virtual y los avatares robóticos en el contexto del cuerpo de bomberos."
+        },
+        "servel": {
+            "description": "Análisis de la experiencia de usuario y sitio web<br><br>SERVEL detectó dificultades en el proceso de cambio de domicilio electoral, pero no lograba identificar sus causas. Se realizó un análisis UX/UI para encontrar los problemas."
         }
     },
     "footer": {
@@ -87,5 +89,36 @@
     "proposal": "En base a los referentes y user personas, se propone un avatar robótico que se pueda utilizar a través de tecnología de realidad virtual. De esta manera, los veteranos que no puedan exponerse a algunos peligros puedan compartir su experiencia en terreno con voluntarios no tan experimentados.",
     "bannerImage": "assets/ecorpbanner.png",
     "proposalImage": "assets/ecorp2.jpg"
+},
+
+    "servel": {
+    "title": "SERVEL",
+    "subtitle": "SERVEL detectó que una cantidad significativa de usuarios tenía dificultades para completar el proceso de cambio de domicilio electoral, pero no lograba identificar qué estaba causando estos problemas. Por ello, se realizó una consultoría UX/UI para analizar la experiencia y encontrar las principales dificultades del proceso.",
+    "description": " SERVEL detectó que una cantidad significativa de usuarios tenía dificultades para completar el proceso de cambio de domicilio electoral, pero no lograba identificar qué estaba causando estos problemas. <br><br>Se realizó una consultoría UX/UI para analizar la experiencia y encontrar las principales dificultades del proceso que impedían a las personas usuarias completar el proceso. <br><br> La finalidad de la consultoría es identificar los problemas y proponer soluciones tipo quick-wins y soluciones a larga escala",
+    "introImage": "assets/servel intro.png",
+    "processTitle": "PROCESO",
+    "process": "SERVEL identificó que en el proceso de cambio de domicilio electoral el <span class=\"rojo\"><b>~37%</b></span> de los usuarios tenía problemas para modificar su domicilio electoral y recurrieron a soporte a través de  alguno de los canales disponibles.",
+    "process2": "Una vez realizados los análisis de UX/UI, se identificó que la principal pantalla con problemas correspondía al cuestionario. Al contrastar estos hallazgos con el porcentaje de personas usuarias que abandonaban el proceso en esta etapa, se corroboró que aproximadamente el <span class=\"rojo\"><b>~70%</b></span> de los abandonos se concentraba en esta sección.",
+    "colorCeleste": "Problemas Menores" ,
+    "colorNaranja": "Problemas Graves" ,
+    "sourcesImage": "assets/problemas1.png",
+    "sourcesImage2": "assets/problemas2.png",
+    "sourcesImage3": "assets/problemas3.png",
+    "problemTitle": "PROBLEMAS IDENTIFICADOS",
+    "problemMinor": "<span class=\"celeste\"><b>PROBLEMAS MENORES</b></span>",
+    "problemMinorImg1": "assets/problemMinor1.png",
+    "problemMinor1txt":"<span class=\"celeste\"><b>1.</b></span> La plataforma SERVEL requiere del uso de ClaveÚnica, esto no se indica en la interfaz. <br> <span class=\"celeste\"><b>2.</b></span> El sitio web menciona una fecha de cierre del proceso pero en lugar de ser clara, indica una cantidad de dias restantes, dejando en manos de la persona usuaria encontrar la fecha exacta.",
+    "problemMinorImg2": "assets/problemMinor2.png",
+    "problemMinor2txt":"<span class=\"celeste\"><b>3.</b></span> Los botones asociados a el sitio web SERVEL y cerrar sesión tienen el mismo estilo pese a ser acciones completamente distintas.",
+    "problemMinorImg3": "assets/problemMinor3.png",
+    "problemMinor3txt":"<span class=\"celeste\"><b>4. y 5.</b></span> Acciones completamente opuestas poseen el mismo estilo.",
+    "problemSerious": "<span class=\"naranja\"><b>PROBLEMAS GRAVES</b></span>",
+    "problemSeriousImg1": "assets/problemSerious1.png",
+    "problemSerious1txt": "<span class=\"naranja\"><b>6.</b></span> Corresponde al principal problema que afecta a las personas usuarias. Se trata de una caja de búsqueda automática que, al hacer clic sobre ella, inicia un proceso de búsqueda de ubicación. Este proceso finaliza al seleccionar una ubicación o al hacer clic fuera de la caja. En este último caso, el sistema identifica la ubicación como inválida y redirige a las personas usuarias a un formulario manual que se encuentra en proceso de desactivación.",
+    "proposal": "PROPUESTA DE DISEÑO",
+    "proposalTxt": "Con los problemas identificados, se propusieron soluciones basadas en principios de experiencia de usuario: un formulario dividido en pasos claramente identificados, con pocas preguntas relacionadas en cada etapa, guardado automático de los datos y la posibilidad de reanudar el proceso. Además, la propuesta considera que las personas usuarias pueden encontrarse en cualquier parte del país y acceder desde un computador, notebook, tablet o celular, incluso con una conexión a internet inestable.",
+    "proposalImg1": "assets/propuesta1.png",
+    "proposalImg2": "assets/propuesta2.png",
+    "proposalTxt2": "Se incorporaron diversas mejoras, como indicar la necesidad de contar con ClaveÚnica mediante un botón con ícono, siguiendo las directrices del Kit Digital, y señalar la fecha exacta en la que el proceso dejará de estar disponible. <br><br>También se identificaron y diferenciaron elementos como botones primarios, secundarios y acciones críticas. Principalmente, se incorporó una acción de confirmación de la búsqueda, evitando uno de los principales puntos de fricción identificados y reduciendo el abandono del proceso de aproximadamente un <span class=\"azul\"><b>13%</b></span> a nivel general y a cerca de un <span class=\"azul\"><b>9%</b></span> en este paso específico. <br><br>De manera adicional, se reforzó el carácter gubernamental del sitio web mediante la aplicación de los lineamientos del Kit UI Gob.cl."
 }
 }

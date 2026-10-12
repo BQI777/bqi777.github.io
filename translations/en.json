@@ -5,8 +5,7 @@
     },
     "hero": {
         "title": "Hey, I'm Nicolás",
-        "description": "<span class=\"wave-animation\">👋</span> I'm an UX/UI designer focused on creating user-centered digital experiences, ensuring they are intuitive, easy to use, and accessible to everyone.<br><br>I'm passionate about improving usability and ensuring that products are inclusive, allowing for a seamless interaction for all types of users.",
-        "projects": "Projects"
+        "description": "<span class=\"wave-animation\">👋</span> I am a Chilean <span class=\"fi fi-cl flag-small\"></span> Industrial and UX/UI Designer based in Hamburg, Germany <span class=\"fi fi-de flag-small\"></span> , with 3 years of experience working on digital projects for the Chilean Government and private organizations.<br><br>I have worked on the design of websites, B2B platforms, administration systems, products for managing large amounts of information, and process-oriented platforms. My approach combines usability, interaction design, and information architecture to create clear, intuitive, and efficient digital experiences.<br><br>I am particularly interested in designing accessible and inclusive products, following WCAG 2.2 accessibility guidelines and aiming to ensure that interfaces meet Level AA."
     },
     "buttons": {
         "copyEmail": "Copy my email",
@@ -22,6 +21,9 @@
         },
         "ecorp": {
             "description": "Robotic avatars for the fire department<br><br>ECORP is a project that combines virtual reality and robotic avatars in the context of the fire department."
+        },
+        "servel": {
+        "description": "User experience and website analysis<br><br>SERVEL identified difficulties in the electoral address change process but was unable to determine their causes. A UX/UI analysis was conducted to identify the underlying issues."
         }
     },
     "footer": {
@@ -82,10 +84,41 @@
     "userPersona": "The user persona was based on possible firefighter stereotypes, ranging from experienced firefighters within the department to new recruits.",
     "userPersonaImage2": "assets/ecorpuserpersona2 EN.png",
     "userPersonaImage3": "assets/ecorpuserpersona3 EN.png",
-    "userPersonaImage4": "assets/ecorpuserpersona4 EN.png",
+    "userPersonaImage4": "assets/ecorpuserpersona4 EN.jpg",
     "proposalTitle": "PROPOSAL",
     "proposal": "Based on the references and user personas, a robotic avatar is proposed that can be operated through virtual reality technology. This would allow experienced firefighters who cannot expose themselves to certain dangers to share their field experience with less experienced volunteers.",
     "bannerImage": "assets/ecorpbanner.png",
     "proposalImage": "assets/ecorp2 EN.png"
+},
+
+"servel": {
+    "title": "SERVEL",
+    "subtitle": "SERVEL identified that a significant number of users were experiencing difficulties completing the electoral address change process, but was unable to determine the underlying causes. A UX/UI consultancy was therefore conducted to analyze the user experience and identify the main pain points in the process.",
+    "description": "SERVEL identified that a significant number of users were experiencing difficulties completing the electoral address change process, but was unable to determine the underlying causes. <br><br>A UX/UI consultancy was conducted to analyze the user experience and identify the main obstacles preventing users from completing the process. <br><br>The goal of the consultancy was to identify problems and propose both quick-win improvements and long-term solutions.",
+    "introImage": "assets/servel intro.png",
+    "processTitle": "PROCESS",
+    "process": "SERVEL identified that during the electoral address change process, <span class=\"rojo\"><b>~37%</b></span> of users experienced difficulties changing their electoral address and contacted support through one of the available channels.",
+    "process2": "Following the UX/UI analysis, the questionnaire was identified as the main source of friction. By comparing these findings with the percentage of users who abandoned the process at this stage, it was confirmed that approximately <span class=\"rojo\"><b>~70%</b></span> of all drop-offs occurred in this section.",
+    "colorCeleste": "Minor Issues",
+    "colorNaranja": "Major Issues",
+    "sourcesImage": "assets/problemas1.png",
+    "sourcesImage2": "assets/problemas2.png",
+    "sourcesImage3": "assets/problemas3.png",
+    "problemTitle": "IDENTIFIED ISSUES",
+    "problemMinor": "<span class=\"celeste\"><b>MINOR ISSUES</b></span>",
+    "problemMinorImg1": "assets/problemMinor1.png",
+    "problemMinor1txt": "<span class=\"celeste\"><b>1.</b></span> The SERVEL platform requires users to log in with ClaveÚnica, but this requirement is not communicated in the interface. <br> <span class=\"celeste\"><b>2.</b></span> The website mentions when the process closes but displays the number of days remaining instead of the exact date, leaving users to work it out themselves.",
+    "problemMinorImg2": "assets/problemMinor2.png",
+    "problemMinor2txt": "<span class=\"celeste\"><b>3.</b></span> The buttons linking to the SERVEL website and logging out share the same visual style, despite representing entirely different actions.",
+    "problemMinorImg3": "assets/problemMinor3.png",
+    "problemMinor3txt": "<span class=\"celeste\"><b>4 and 5.</b></span> Actions with completely opposite purposes share the same visual style.",
+    "problemSerious": "<span class=\"naranja\"><b>MAJOR ISSUES</b></span>",
+    "problemSeriousImg1": "assets/problemSerious1.png",
+    "problemSerious1txt": "<span class=\"naranja\"><b>6.</b></span> This was the main issue affecting users. It involved an autocomplete search field that initiated a location search when clicked. The process ended when a location was selected or when the user clicked outside the field. In the latter case, the system treated the location as invalid and redirected users to a manual form that was being phased out.",
+    "proposal": "DESIGN PROPOSAL",
+    "proposalTxt": "Based on the identified issues, solutions were proposed using user experience design principles: a form divided into clearly defined steps, with a small number of related questions at each stage, automatic data saving, and the ability to resume the process later. The proposal also accounted for users accessing the service from anywhere in the country using a desktop computer, laptop, tablet, or mobile phone, including under unstable internet connections.",
+    "proposalImg1": "assets/propuesta1.png",
+    "proposalImg2": "assets/propuesta2.png",
+    "proposalTxt2": "Several improvements were introduced, including a button with an icon to communicate the requirement for ClaveÚnica, following the Digital Kit guidelines, and displaying the exact date when the process would no longer be available. <br><br>Primary buttons, secondary buttons, and critical actions were also identified and visually differentiated. Most importantly, a search confirmation step was introduced, eliminating one of the main friction points identified during the analysis. This helped reduce abandonment by approximately <span class=\"azul\"><b>13%</b></span> overall and to around <span class=\"azul\"><b>9%</b></span> at this specific step. <br><br>Additionally, the website's government identity was reinforced by applying the design guidelines of the Gob.cl UI Kit."
 }
 }
