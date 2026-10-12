@@ -1,0 +1,138 @@
+/* ==============================
+   SECCIÓN
+============================== */
+
+.laptops-scroll-section {
+    position: relative;
+    height: 500vh;
+
+}
+
+
+/* ==============================
+   STAGE
+============================== */
+
+.laptops-stage {
+    position: sticky;
+    top: 0;
+    height: 90vh;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    overflow: hidden;
+}
+
+
+/* ==============================
+   NOTEBOOK
+============================== */
+
+.laptop-mockup {
+    position: absolute;
+    top: 0;
+    width: 1300px;
+    margin: 0;
+    z-index: 2;
+}
+
+
+/* ==============================
+   PANTALLA
+============================== */
+
+.laptop-screen {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    width: 80%;
+    height: 81%;
+    overflow: hidden;
+}
+
+
+/* ==============================
+   IMÁGENES
+============================== */
+
+.process-image {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    scale: 0.928;
+
+}
+
+
+/* ==============================
+   POSICIÓN IMAGEN 1
+============================== */
+
+.process-image-1 {
+    top: 0px;
+    z-index: 2;
+
+}
+
+
+/* ==============================
+   POSICIÓN IMAGEN 2
+============================== */
+
+.process-image-2 {
+    top: -18px;
+    z-index: 1;
+
+}
+
+
+/* ==============================
+   FRAME DEL NOTEBOOK
+============================== */
+
+.laptop-frame {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: auto;
+    display: block;
+    pointer-events: none;
+}
+
+
+@media (max-width: 767.98px) {
+    .laptops-scroll-section {
+        height: 50vh;
+    }
+
+    .laptops-stage {
+        height: 80vh;
+    }
+
+    .laptop-mockup {
+        width: 100vw;
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .laptop-frame {
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .laptops-scroll-section {
+        height: 30vh;
+    }
+
+    .laptop-mockup {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .laptops-scroll-section {
+        height: 30vh;
+    }
+}

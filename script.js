@@ -123,23 +123,24 @@ async function loadLanguage(language) {
     // TRADUCIR TEXTOS
     // ==============================
 
-    document.querySelectorAll("[data-i18n]").forEach(element => {
+document.querySelectorAll("[data-i18n]").forEach(element => {
 
-        const key = element.dataset.i18n;
+    const key = element.dataset.i18n;
+    const keys = key.split(".");
+    let value = translations;
 
-        const keys = key.split(".");
-
-        let value = translations;
-
-
-        keys.forEach(k => {
+    keys.forEach(k => {
+        if (value !== undefined) {
             value = value[k];
-        });
-
-
-        element.innerHTML = value;
-
+        }
     });
+
+    if (value !== undefined) {
+        element.innerHTML = value;
+    } else {
+        console.warn(`Traducción no encontrada: ${key}`);
+    }
+});
 
 
     // ==============================
@@ -165,29 +166,28 @@ async function loadLanguage(language) {
     });
 
 
-    // ==============================
-    // CAMBIAR BANDERA DEL BOTÓN
-    // ==============================
+// ==============================
+// CAMBIAR BANDERA DEL BOTÓN
+// ==============================
 
-    const languageButton = document.getElementById("languageButton");
+const languageButton = document.getElementById("languageButton");
 
-    if (languageButton) {
+if (languageButton) {
 
-        if (language === "es") {
+    if (language === "es") {
 
-            languageButton.innerHTML =
-                '<span class="fi fi-es"></span> <p style="font-size: 16px; display: inline;">ES</p>';
+        languageButton.innerHTML = `
+            <span class="fi fi-es"></span> ES
+        `;
 
-        }
+    } else if (language === "en") {
 
-        else if (language === "en") {
-
-            languageButton.innerHTML =
-                '<span class="fi fi-gb"></span> <p style="font-size: 16px; display: inline;">EN</p>';
-
-        }
+        languageButton.innerHTML = `
+            <span class="fi fi-gb"></span> EN
+        `;
 
     }
+}
 
 }
 
